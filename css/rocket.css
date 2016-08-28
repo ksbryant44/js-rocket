@@ -1,3 +1,7 @@
+body {
+	font-family: 'helvetica', 'arial', sans-serif; 
+}
+
 .left {
 	background-color: aquamarine;
 	position: fixed;
@@ -5,6 +9,41 @@
 	height: 100%;
 	top: 0;
 	left: 0;
+}
+
+.interface {
+	text-align: center;
+	padding: 20px;
+}
+
+a.button {
+	display: inline-block;
+	background-color: white;
+	color: black;
+	padding: 20px 40px;
+	text-decoration: none;
+	border-radius: 10px;
+	text-transform: uppercase;
+	transition: color 300ms;
+}
+
+a.button:hover {
+	color: red;
+}
+
+a.abort {
+	display: inline-block;
+	background-color: red;
+	color: black;
+	padding: 20px 40px;
+	text-decoration: none;
+	border-radius: 10px;
+	text-transform: uppercase;
+	transition: color 300ms;
+}
+
+a.abort:hover {
+	color: white;
 }
 
 .right {
@@ -110,9 +149,5 @@ body.body-state5 .state5{display: block;}
 
 
 a {
-
-}
-
-a.button {
 
 }
